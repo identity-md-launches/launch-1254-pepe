@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Pepe",
+    "name": "pepe",
+    "symbol": "PEPE",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8800,
+    "initialMarketCapWei": "2000000000000000000000000",
+    "remainderTo": "0xf2816f3f05fac35577b1930ffd09b531b62628df"
+  },
+  "notes": "Pepe is a fixed-supply ERC-20 named pepe (PEPE) with 18 decimals. Its parameterless constructor mints all 1,000,000,000 tokens once to msg.sender, the deploying factory. It has no external mint or burn functions, transfer taxes, or administrative powers. There are no application contracts or initialization calls. pool.initialPrice records provenance only; the opening price is derived from economics.initialMarketCapWei and token.totalSupply."
+}
